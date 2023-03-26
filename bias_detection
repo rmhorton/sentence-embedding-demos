@@ -1,0 +1,4 @@
+How do we measure cultural bias in sentence embeddings?
+
+Here we use GPT3 to generate a dataset similar to the intrinsic bias benchmark [CrowS-Pairs](https://github.com/nyu-mll/crows-pairs).
+
