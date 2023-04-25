@@ -1,0 +1,24 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+# This is an example Azure DevOps pipeline YAML file
+# that pulls code from a GitHub repository when there's an update.
+
+trigger:
+  branches:
+    include:
+      - main # Change this to the branch you want to trigger the pipeline
+
+pool:
+  vmImage: 'ubuntu-latest' # Change this to the image you want to use
+
+steps:
+  - script: |
+      git config --global user.email "matavako@microsoft.com"
+      git config --global user.name "mry-tvk"
+      git clone https://github.com/rmhorton/sentence-embedding-demos.git
+    displayName: 'Clone repository'
+
+  # Add additional steps here to build, test, and deploy your code
