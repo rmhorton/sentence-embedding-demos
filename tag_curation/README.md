@@ -7,4 +7,4 @@ For a given tag, find the posts that should have it but don't, and those that se
 These links will display the co-occurrence graphs in your browser (they may take several minutes to load):
 
 * [Original tags](https://htmlpreview.github.io/?https://raw.githubusercontent.com/rmhorton/sentence-embedding-demos/main/tag_curation/cooccurrence_original_tags.html)
-* [Curated tags](https://htmlpreview.github.io/?https://raw.githubusercontent.com/rmhorton/sentence-embedding-demos/main/tag_curation/cooccurrence_curated_tags.html)
+* [Predicted tags](https://htmlpreview.github.io/?https://raw.githubusercontent.com/rmhorton/sentence-embedding-demos/main/tag_curation/cooccurrence_predicted_tags.html)
