@@ -1,3 +1,6 @@
+# Instructions for MLADS Conference attendees
+https://aka.ms/mladsembedding2023
+
 # sentence-embedding-demos
 Fun, interesting, and maybe useful things to do with sentence embeddings.
 
