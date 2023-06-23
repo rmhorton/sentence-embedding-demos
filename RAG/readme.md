@@ -9,3 +9,10 @@ Run *RAG_data_prep.ipynb* first to preprocess the data, then run *RAG_main.ipynb
 
 ## Data
 Two .csv files should be put in the *data/* folder for the code to work: *attributes.csv* and *product_descriptions.csv*. A small, truncated version of both files (attributes/descriptions for 10 products) is provided for user convenience.
+
+## Dependencies
+You will need to have following libraries installed, with these specific versions, in your Fabric workspace. This can be done by going to your workspace, then selecting "..." => Workspace settings => Data Engineering/Science => Library management => Feed Libraries => Add from PyPI.
+* langchain - 0.0.188
+* pgvector - 0.1.8
+* psycopg2 - 2.9.6
+* openai - 0.27.7
